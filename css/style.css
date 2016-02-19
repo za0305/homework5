@@ -1,0 +1,97 @@
+body{
+  font-family:"helveticaneuecyrbold", "helveticaneuecyrmedium", "Arial";
+}
+.menu {
+  height: 35px;
+  padding-right: 20px;
+  text-align: right;
+  background-color: #074f8d;
+  font-size: 14px;
+}
+.nav li {
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+}
+.nav li:first-child {
+  width: 100px;
+}
+.nav a {
+  color: #4eabda;
+}
+.nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+.nav li:hover {
+  background-color: #4eabda;
+}
+#offers {
+  width: 160px;
+}
+#entrans {
+  width: 191px;
+  background-image: url(../img/button.png);
+  color: white;
+}
+#entrans a {
+  color: white;
+  text-decoration: underline;
+}
+.content {
+  min-width: 1215px;
+  min-height: 1028px;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+.form {
+  width: 560px;
+  height: 610px;
+  left: 50%;
+  margin-left: -280px;
+  margin-top: 250px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+}
+.form p {
+  font-size: 24px;
+  line-height: 55px;
+  color: white;
+}
+.form a {
+  display: block;
+  margin-top: 35px;
+}
+input[type="text"],[type="password"] {
+  display: block;
+  width: 260px;
+  height: 35px;
+  margin: 15px auto;
+  padding-left: 15px;
+  background-color: black;
+  border: 0;
+  border-bottom: 2px solid #484948;
+  color: white;
+}
+input[type="text"]:hover,[type="password"]:hover {
+  background-color: #1b5288;
+  box-shadow: 0 0 8px 3px #689bcc;
+  border-bottom: 1px solid #689bcc;
+}
+input[type="submit"] {
+  width: 151px;
+  height: 37px;
+  display: block;
+  margin: 15px auto;
+  border: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../img/creat.png);
+}
+.form span {
+  font-size: 11px;
+  color: white;
+}
