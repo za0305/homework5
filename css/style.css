@@ -18,6 +18,7 @@ body{
   width: 100px;
 }
 .nav a {
+  display: block;
   color: #4eabda;
 }
 .nav a:hover {
@@ -29,14 +30,17 @@ body{
 }
 #offers {
   width: 160px;
+  display: inline-block;
 }
 #entrans {
+  display: inline-block;
   width: 191px;
   background-image: url(../img/button.png);
   color: white;
 }
 #entrans a {
   color: white;
+  display: inline;
   text-decoration: underline;
 }
 .content {
@@ -76,10 +80,15 @@ input[type="text"],[type="password"] {
   border-bottom: 2px solid #484948;
   color: white;
 }
-input[type="text"]:hover,[type="password"]:hover {
+input[type="text"]:hover {
   background-color: #1b5288;
   box-shadow: 0 0 8px 3px #689bcc;
-  border-bottom: 1px solid #689bcc;
+  border-bottom: 2px solid #689bcc;
+}
+[type="password"]:hover {
+  background-color: #1b5288;
+  box-shadow: 0 0 8px 3px #689bcc;
+  border-bottom: 2px solid #689bcc;
 }
 input[type="submit"] {
   width: 151px;
