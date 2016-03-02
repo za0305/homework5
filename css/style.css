@@ -6,16 +6,20 @@ body{
   padding-right: 20px;
   text-align: right;
   background-color: #074f8d;
-  font-size: 14px;
+  font-size: 0px;
 }
 .nav li {
   width: 70px;
   display: inline-block;
   text-align: center;
+  font-size: 14px;
   line-height: 35px;
 }
 .nav li:first-child {
   width: 100px;
+}
+#offers {
+  border-left: 1px solid #4eabda;
 }
 .nav a {
   display: block;
